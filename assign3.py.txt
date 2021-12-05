@@ -1,0 +1,8 @@
+# your code goes here
+arr1=['a','b','c','d']
+arr2=['b','a','d','e']
+
+if set(arr2).issubset(set(arr1)):
+	print("arr2 is subset of arr1")
+else:
+	print("arr2 is not subset of arr1")
